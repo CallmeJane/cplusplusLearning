@@ -114,12 +114,17 @@
     <ClInclude Include="algorithm_learning.h" />
     <ClInclude Include="basic_learning.h" />
     <ClInclude Include="binary_tree_learnign.h" />
+    <ClInclude Include="deque_learning.h" />
     <ClInclude Include="divide_and_conquer.h" />
     <ClInclude Include="error.h" />
     <ClInclude Include="factory_model_learning.h" />
     <ClInclude Include="interview_learning.h" />
     <ClInclude Include="leetcode_algorithm_learning.h" />
+    <ClInclude Include="list_learning.h" />
+    <ClInclude Include="map_learning.h" />
     <ClInclude Include="my_vector.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="set_learning.h" />
     <ClInclude Include="single_modle_learning.h" />
     <ClInclude Include="static_learning.h" />
     <ClInclude Include="stl_container_learning.h" />
@@ -132,6 +137,9 @@
   <ItemGroup>
     <ClCompile Include="error.cpp" />
     <ClCompile Include="exec.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="c++_basic_learning.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

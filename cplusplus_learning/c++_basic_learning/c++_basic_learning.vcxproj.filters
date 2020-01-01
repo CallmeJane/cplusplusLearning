@@ -66,6 +66,21 @@
     <ClInclude Include="string_learning.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="set_learning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="map_learning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deque_learning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="list_learning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exec.cpp">
@@ -74,5 +89,10 @@
     <ClCompile Include="error.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="c++_basic_learning.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

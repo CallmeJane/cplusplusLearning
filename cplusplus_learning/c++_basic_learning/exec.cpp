@@ -10,7 +10,9 @@
 #include<map>
 #include<vector>
 #include<algorithm>
-#include"string_learning.h"
+#include"map_learning.h"
+#include "deque_learning.h"
+#include "list_learning.h"
 using std::cout;
 using std::endl;
 using std::string;
@@ -45,9 +47,8 @@ int main()
 	//}
 	//list_k_reserve(head, 2, 5);
 	//std::string str=middle_order_serialization(init_trees());
-
 	//struct BinaryTreeNode<int>* root=prev_order_desrialization(str);
-	string_strip_space();
+	list_rsu();
 	int i;
 	std::cin >> i;
 	return 0;
